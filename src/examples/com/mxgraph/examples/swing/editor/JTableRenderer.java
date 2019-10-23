@@ -50,6 +50,7 @@ import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.swing.handler.mxCellHandler;
 import com.mxgraph.swing.handler.mxGraphTransferHandler;
 import com.mxgraph.swing.util.mxGraphTransferable;
+import com.mxgraph.util.mxConstants;
 import com.mxgraph.view.mxGraph;
 
 /**
@@ -127,7 +128,7 @@ public class JTableRenderer extends JComponent
 
 		JLabel label = new JLabel(String.valueOf(graph.getLabel(cell)));
 		label.setForeground(Color.WHITE);
-		label.setFont(title.getFont().deriveFont(Font.BOLD, 11));
+		label.setFont(title.getFont().deriveFont(Font.BOLD, mxConstants.DEFAULT_FONTSIZE));
 		label.setBorder(BorderFactory.createEmptyBorder(0, 1, 0, 2));
 		title.add(label, BorderLayout.CENTER);
 

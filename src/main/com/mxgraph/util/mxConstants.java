@@ -68,12 +68,12 @@ public class mxConstants
 	 * Defines the default font family. Default is "Dialog". (To be replaced
 	 * with Font.DIALOG after EOL of Java 1.5.)
 	 */
-	public static String DEFAULT_FONTFAMILY = "Dialog";
+	public static String DEFAULT_FONTFAMILY = "宋体";
 
 	/**
 	 * Defines the default font size (in px). Default is 11.
 	 */
-	public static int DEFAULT_FONTSIZE = 11;
+	public static int DEFAULT_FONTSIZE = 16;
 
 	/**
 	 * Defines the default start size for swimlanes. Default is 40.

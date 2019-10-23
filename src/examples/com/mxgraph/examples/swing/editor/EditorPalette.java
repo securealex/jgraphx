@@ -30,6 +30,7 @@ import com.mxgraph.model.mxCell;
 import com.mxgraph.model.mxGeometry;
 import com.mxgraph.swing.util.mxGraphTransferable;
 import com.mxgraph.swing.util.mxSwingConstants;
+import com.mxgraph.util.mxConstants;
 import com.mxgraph.util.mxEvent;
 import com.mxgraph.util.mxEventObject;
 import com.mxgraph.util.mxEventSource;
@@ -276,9 +277,9 @@ public class EditorPalette extends JPanel
 		}
 
 		final JLabel entry = new JLabel(icon);
-		entry.setPreferredSize(new Dimension(50, 50));
+		entry.setPreferredSize(new Dimension(150, 50));
 		entry.setBackground(EditorPalette.this.getBackground().brighter());
-		entry.setFont(new Font(entry.getFont().getFamily(), 0, 10));
+		entry.setFont(new Font(entry.getFont().getFamily(), 0, mxConstants.DEFAULT_FONTSIZE));
 
 		entry.setVerticalTextPosition(JLabel.BOTTOM);
 		entry.setHorizontalTextPosition(JLabel.CENTER);
